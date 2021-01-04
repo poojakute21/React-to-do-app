@@ -3,7 +3,7 @@ body{
 }
 
 .App{
-	background-color: #3f3160;
+	background-color: #3a3052;
 	min-height: 500px;
 	width: 400px;
 	margin: 40px auto;
@@ -39,4 +39,10 @@ body{
 	cursor: pointer;
 	font-weight: bolder;
 	color: #fff;
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	padding-top: 12px;
 }

@@ -2,7 +2,7 @@
   "name": "todolist_project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://poojakute21.github.io/React-to-do-app",
+  "homepage": "https://poojakute21.github.io/React-to-do-app",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
