@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+React JS installation:
+1. Install Node js with npm
+2. Install Visual Studio Code or Submlime
+2. npm install -g npm
+3. npx create-react-app todolist_project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To-Do App in react js code:
+This is a simple To Do Appliction in react.In this application I have used React Components, React Forms, event handlers.
 
-## Available Scripts
+Steps:
+1. Create UI for adding to do list:
+2. On button add called event handlers for adding list of to do items.
+3. Displayed to-do list items.
+4. Edit to-do list items on change event handlers
+5. Delete button add for removing items and add delete event handlers.
 
-In the project directory, you can run:
+Commands install to Use Font Awesome:
+$ npm i --save @fortawesome/fontawesome-svg-core
+$ npm i --save @fortawesome/free-solid-svg-icons
+$ npm i --save @fortawesome/react-fontawesome
 
-### `npm start`
+Commands to install react-flip-move
+$ npm i react-flip-move
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Deploy Your projects on Github:
+1.Go to https://github.com site and create New repository with name.
+2.In package.json file on your folder add below line:
+ "homepage": "http://poojakute21.github.io/React-to-do-app",
+ "homepage" : "http://username.github.io/repository-name",
+ 
+ In scrips section add below lines:
+	"predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+	
+3.In command prompt go to projects
+git init
+git remote add origin https://github.com/poojakute21/React-to-do-app
+git remote set-url origin https://github.com/poojakute21/React-to-do-app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+npm install gh-pages --save-dev
+npm run deploy
 
-### `npm test`
+Run homepage URL to check your deployed code:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Add Your code to git repository:
+git status
+git add .
+git commit -m "adding code files to gir repository"
+git push origin master
