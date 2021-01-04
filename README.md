@@ -40,7 +40,7 @@ git remote set-url origin https://github.com/poojakute21/React-to-do-app
 npm install gh-pages --save-dev
 npm run deploy
 
-Run homepage URL to check your deployed code:
+Run homepage URL to check your deployed code.
 
 4. Add Your code to git repository:
 git status
